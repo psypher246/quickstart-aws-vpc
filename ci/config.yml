@@ -11,5 +11,7 @@ global:
   reporting: true
 tests:
   defaults:
+    regions:
+      - eu-west-1
     parameter_input: aws-vpc-defaults.json
     template_file: aws-vpc.template
